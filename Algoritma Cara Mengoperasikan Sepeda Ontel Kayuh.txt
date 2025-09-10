@@ -1,0 +1,37 @@
+ALGORITMA MengoperasikanSepedaOntel
+DEKLARASI:
+    sepeda_standaran: boolean
+    posisi_duduk: boolean
+    keseimbangan: boolean
+    
+ALGORITMA:
+    // Persiapan awal
+    PASTIKAN sepeda dalam kondisi baik
+    ATUR sadel sesuai tinggi pengendara
+    PERIKSA tekanan ban
+    PERIKSA rem berfungsi
+    
+    // Langkah mengoperasikan
+    LEPASKAN standar sepeda (jika terpasang)
+    BERDIRI di samping sepeda
+    DUDUK di atas sadel
+    LETAKKAN kedua tangan pada stang
+    LETAKKAN kedua kaki pada pedal (satu di atas, satu di bawah)
+    
+    MULAI mengayuh:
+        TEKAN pedal atas ke bawah dengan kaki
+        BERSAMAAN, angkat pedal bawah ke atas
+        ULANGI gerakan mengayuh secara berirama
+        JAGA keseimbangan tubuh
+        
+    UNTUK berbelok:
+        PUTAR stang ke arah yang diinginkan
+        CONDONGKAN tubuh sedikit ke arah belok
+        JAGA kecepatan yang stabil
+        
+    UNTUK berhenti:
+        TEKAN tuas rem secara perlahan
+        HENTIKAN kayuhan
+        TURUN dari sepeda
+        PASANG standar sepeda
+SELESAI

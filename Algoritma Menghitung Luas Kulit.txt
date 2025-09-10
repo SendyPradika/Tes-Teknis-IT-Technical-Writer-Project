@@ -1,0 +1,31 @@
+ALGORITMA HitungLuasKulitBentuk
+DEKLARASI:
+    alas_panjang, alas_lebar: real
+    tinggi_limas, tinggi_segitiga: real
+    luas_alas, luas_selimut, luas_total: real
+    jumlah_sisi: integer = 4  // untuk limas segi empat
+
+ALGORITMA:
+    // Input data
+    INPUT(alas_panjang)
+    INPUT(alas_lebar)
+    INPUT(tinggi_limas)
+    
+    // Hitung tinggi segitiga selimut (menggunakan Pythagoras)
+    tinggi_segitiga = AKAR(KUADRAT(tinggi_limas) + KUADRAT(alas_lebar/2))
+    
+    // Hitung luas alas
+    luas_alas = alas_panjang * alas_lebar
+    
+    // Hitung luas selimut (4 segitiga identik)
+    luas_segitiga = (alas_panjang * tinggi_segitiga) / 2
+    luas_selimut = jumlah_sisi * luas_segitiga
+    
+    // Total luas kulit
+    luas_total = luas_alas + luas_selimut
+    
+    // Output hasil
+    OUTPUT("Luas Alas: ", luas_alas)
+    OUTPUT("Luas Selimut: ", luas_selimut)
+    OUTPUT("Total Luas Kulit: ", luas_total)
+SELESAI
