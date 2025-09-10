@@ -1,0 +1,5 @@
+PROSEDUR TerimaInputPengguna
+    TAMPILKAN pesan "Masukkan jumlah deret Fibonacci: "
+    TERIMA input nilai n dari pengguna
+    VALIDASI bahwa n adalah bilangan bulat positif
+SELESAI PROSEDUR

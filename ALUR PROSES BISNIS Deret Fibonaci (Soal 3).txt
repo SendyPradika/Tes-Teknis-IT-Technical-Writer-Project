@@ -1,0 +1,4 @@
+ALGORITMA Utama
+    PANGGIL TerimaInputPengguna untuk mendapatkan nilai n
+    PANGGIL TampilkanDeretFibonacci(n)
+SELESAI ALGORITMA

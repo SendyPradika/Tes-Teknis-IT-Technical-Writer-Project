@@ -1,0 +1,8 @@
+PROSEDUR TampilkanDeretFibonacci(n: integer)
+    TAMPILKAN header "Deret Fibonacci hingga [n] adalah:"
+    
+    UNTUK i dari 0 hingga n-1 LAKUKAN
+        NILAI_SUKU = HitungFibonacci(i)
+        TAMPILKAN NILAI_SUKU dipisahkan spasi
+    SELESAI PERULANGAN
+SELESAI PROSEDUR

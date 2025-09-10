@@ -1,0 +1,8 @@
+FUNGSI HitungFibonacci(n: integer): integer
+    JIKA n ≤ 1 MAKA
+        KEMBALIKAN nilai n
+    SELAIN ITU
+        NILAI_FIBONACCI = HitungFibonacci(n-1) + HitungFibonacci(n-2)
+        KEMBALIKAN NILAI_FIBONACCI
+    SELESAI JIKA
+SELESAI FUNGSI
